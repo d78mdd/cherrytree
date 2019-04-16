@@ -1,0 +1,10 @@
+seems to contain files describing file types being saved by CherryTree
+	cherrytree.xml
+	cherrytree.mime
+	cherrytree.keys
+, desktop icon/shortcut?
+	cherrytree.desktop
+and some properties
+
+manual-install.txt
+	how to actually install CherryTree manually without the installer/package ?

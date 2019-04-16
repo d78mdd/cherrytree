@@ -1,0 +1,18 @@
+clipboard.py
+	seems to define ways of paste/copy/cut to and/or from codeboxes, richtext, image ,...
+
+codeboxes.py
+	"""Handler of the CodeBoxes"""
+	has definitions for python "functions"? for copy, paste, cut, delete, insert, increase/decrease width/height, save, properies, scrollbar, mouse click, menu,
+
+config.py
+	among others, default colors, special characters, file extensions,
+	load/apply/save preferences from/to config file,
+	tree info, set node path and cursor position,
+	definitions for the preferences dialog and its tabs
+
+cons.py
+	symbols and strings definitions, icons descriptions/naming/arrangement,
+	html and sql code snippets
+	something about internationalization
+
