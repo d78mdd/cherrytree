@@ -1845,14 +1845,14 @@ def set_menu_items_recent_documents(dad):
         # main menu
         recent_menuitem = gtk.ImageMenuItem(_("_Recent Documents"))
         recent_menuitem.set_image(gtk.image_new_from_stock("gtk-open", gtk.ICON_SIZE_MENU))
-        recent_menuitem.set_tooltip_text(_("Open a Recent CherryTree Document"))
+        recent_menuitem.set_tooltip_text(_("open recent"))
         recent_menuitem.set_submenu(dad.recent_menu_1)
         dad.ui.get_widget("/MenuBar/FileMenu").get_submenu().insert(recent_menuitem, 3)
         # toolbar
         if dad.toolbar_open_n_recent >= 0:
             menu_toolbutton = gtk.MenuToolButton("gtk-open")
             menu_toolbutton.set_tooltip_text(_("Open a CherryTree Document"))
-            menu_toolbutton.set_arrow_tooltip_text(_("Open a Recent CherryTree Document"))
+            menu_toolbutton.set_arrow_tooltip_text(_("open recent"))
             menu_toolbutton.set_menu(dad.recent_menu_2)
             menu_toolbutton.connect("clicked", dad.file_open)
             dad.ui.get_widget("/ToolBar").insert(menu_toolbutton, dad.toolbar_open_n_recent)

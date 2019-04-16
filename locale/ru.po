@@ -3026,7 +3026,7 @@ msgstr "Недавние документы"
 
 #: /home/giuspen/Software/git_cherrytree/modules/support.py:1848
 #: /home/giuspen/Software/git_cherrytree/modules/support.py:1855
-msgid "Open a Recent CherryTree Document"
+msgid "open recent"
 msgstr "Открыть недавний документ CherryTree"
 
 #: /home/giuspen/Software/git_cherrytree/modules/support.py:1881

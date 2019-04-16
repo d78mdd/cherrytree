@@ -3023,7 +3023,7 @@ msgstr "N_edavni dokumenti"
 
 #: /home/giuspen/Software/git_cherrytree/modules/support.py:1848
 #: /home/giuspen/Software/git_cherrytree/modules/support.py:1855
-msgid "Open a Recent CherryTree Document"
+msgid "open recent"
 msgstr "Odpri nedavni CherryTree dokument"
 
 #: /home/giuspen/Software/git_cherrytree/modules/support.py:1881

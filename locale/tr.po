@@ -3023,7 +3023,7 @@ msgstr "Açılan Dökümanlar Geçmişi"
 
 #: /home/giuspen/Software/git_cherrytree/modules/support.py:1848
 #: /home/giuspen/Software/git_cherrytree/modules/support.py:1855
-msgid "Open a Recent CherryTree Document"
+msgid "open recent"
 msgstr "Geçmişte Açılmış Bir CherryTree Dökümanı Aç"
 
 #: /home/giuspen/Software/git_cherrytree/modules/support.py:1881

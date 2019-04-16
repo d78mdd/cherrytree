@@ -1917,7 +1917,7 @@ msgstr "Documentos _recentes"
 
 #: /home/giuspen/Software/GIT-SW/git_cherrytree/modules/support.py:1543
 #: /home/giuspen/Software/GIT-SW/git_cherrytree/modules/support.py:1550
-msgid "Open a Recent CherryTree Document"
+msgid "open recent"
 msgstr "Abrir um documento recente do CherryTree"
 
 #: /home/giuspen/Software/GIT-SW/git_cherrytree/modules/support.py:1575

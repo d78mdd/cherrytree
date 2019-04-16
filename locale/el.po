@@ -2092,7 +2092,7 @@ msgstr "_Πρόσφατα έγγραφα"
 
 #: /home/giuspen/Software/GIT-SW/git_cherrytree/modules/support.py:1793
 #: /home/giuspen/Software/GIT-SW/git_cherrytree/modules/support.py:1800
-msgid "Open a Recent CherryTree Document"
+msgid "open recent"
 msgstr "Άνοιγμα ενός πρόσφατου εγγράφου CherryTree"
 
 #: /home/giuspen/Software/GIT-SW/git_cherrytree/modules/support.py:1825

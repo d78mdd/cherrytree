@@ -1910,7 +1910,7 @@ msgstr "最近文档(_R)"
 
 #: /home/giuspen/Software/GIT-SW/git_cherrytree/modules/support.py:1543
 #: /home/giuspen/Software/GIT-SW/git_cherrytree/modules/support.py:1550
-msgid "Open a Recent CherryTree Document"
+msgid "open recent"
 msgstr "最近打开的CherryTree文档"
 
 #: /home/giuspen/Software/GIT-SW/git_cherrytree/modules/support.py:1575

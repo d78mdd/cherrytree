@@ -171,6 +171,8 @@ def get_node_path_str_from_path(tree_path):
 def get_pixels_inside_wrap(space_around_lines, relative_wrapped_space):
     return int(round(space_around_lines * (relative_wrapped_space / 100.0)))
 
+
+
 def config_file_load(dad):
     """Load the Preferences from Config File"""
     dad.custom_kb_shortcuts = {}
@@ -712,6 +714,8 @@ def config_file_save(dad):
         cfg.write(fd)
         #print "saved", cons.CONFIG_PATH, "('%s', '%s')" % (dad.file_name, dad.file_dir)
 
+
+
 def get_tree_expanded_collapsed_string(dad):
     """Returns a String Containing the Info about Expanded and Collapsed Nodes"""
     expanded_collapsed_string = ""
@@ -779,6 +783,10 @@ def set_tree_path_and_cursor_pos(dad):
             dad.treeview.set_cursor(dad.treestore.get_path(node_iter_to_focus))
             dad.sourceview.grab_focus()
 
+
+
+
+
 def preferences_tab_text_n_code(dad, vbox_all_nodes, pref_dialog):
     """Preferences Dialog, All Nodes Tab"""
     for child in vbox_all_nodes.get_children(): child.destroy()
@@ -791,7 +799,7 @@ def preferences_tab_text_n_code(dad, vbox_all_nodes, pref_dialog):
     spinbutton_tab_width.set_value(dad.tabs_width)
     hbox_tab_width.pack_start(label_tab_width, expand=False)
     hbox_tab_width.pack_start(spinbutton_tab_width, expand=False)
-    checkbutton_spaces_tabs = gtk.CheckButton(label=_("Insert Spaces Instead of Tabs"))
+    checkbutton_spaces_tabs = gtk.CheckButton(label=_("Insert muramuramura Instead of Tabutabup"))
     checkbutton_spaces_tabs.set_active(dad.spaces_instead_tabs)
     checkbutton_line_wrap = gtk.CheckButton(label=_("Use Line Wrapping"))
     checkbutton_line_wrap.set_active(dad.line_wrapping)
@@ -2345,6 +2353,8 @@ def preferences_tab_misc(dad, vbox_misc, pref_dialog):
             lang_file_descriptor.write(new_lang)
             lang_file_descriptor.close()
     combobox_country_language.connect('changed', on_combobox_country_language_changed)
+
+
 
 def dialog_preferences(dad):
     """Preferences Dialog"""
